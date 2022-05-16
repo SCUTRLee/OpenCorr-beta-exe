@@ -1,4 +1,4 @@
-###BoardGenerator
+### BoardGenerator
 生成一张用于显示在IPAD2018上的标定板图像
 
 默认分辨率为2048x1536，9行12列的标定板图片
@@ -7,5 +7,5 @@
 
 生成的图片以圆点间隔命名
 
-###DIC
+### DIC
 opencorr.exe
