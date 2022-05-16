@@ -1,0 +1,41 @@
+{
+    "DICType" : "stereo",
+    "useGPU": false,
+    "threadNumber": 10,
+    "leftImagePath": [
+        "H:/Git repository/OpenCorr_lastestlib/OpenCorr_lastestlib/samples/GT4-0000_0.tif",
+        "H:/Git repository/OpenCorr_lastestlib/OpenCorr_lastestlib/samples/GT4-0273_0.tif"
+    ],
+    "rightImagePath": [
+        "H:/Git repository/OpenCorr_lastestlib/OpenCorr_lastestlib/samples/GT4-0000_1.tif",
+        "H:/Git repository/OpenCorr_lastestlib/OpenCorr_lastestlib/samples/GT4-0273_1.tif"        
+    ],
+    "calibrateFile" : "H:/Git repository/OpenCorr_lastestlib/OpenCorr_lastestlib/samples/RawCalibration.csv",    
+    "comment":"This is garbage",
+    "subsetRadiusX": 16,
+    "subsetRadiusY": 16,
+    
+    "parallaxGuessX" : -30,
+    "parallaxGuessY" : -40,
+    "searchRadius" : 30,
+    "searchStep" : 5,
+
+
+    "coarseMethod": "sift",
+    "stereoCoarseMethod" : "sift",
+    "interpolationMethod": "bspline_bicubic",
+    "gradientOrder": "O4",
+    "refineMethod": "icgn",
+    "convergenceCriterion": 0.001,
+    "maxIteration": 10,
+    
+    "poiMode": "subfile",
+    "poiShape": "rect",
+    "poiFile" : "H:/Git repository/OpenCorr_lastestlib/OpenCorr_lastestlib/samples/GT4-POIs.csv",
+    "poiGridX": 20,
+    "poiGridY": 20,
+    "roiLeft": 20,
+    "roiTop": 80,
+    "roiRight": 450,
+    "roiBottom": 450
+}
